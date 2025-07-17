@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2THW334G8"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-X2THW334G8');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-X2THW334G8');
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <div>
         <script>
-            window.location.href = "https://wa.me/919517587899";
+            var tels = ['919100742367',
+                '916379314801',
+                '918548951142',
+                '917027327852',
+                '919630342610',
+                '919456002514',
+                '919042111826',
+                '917268926962',
+                '919517587899',
+                '917351787697'
+            ]
+            var min = Math.ceil(0);
+            var max = Math.floor(10);
+            var x = Math.floor(Math.random() * (max - min + 1)) + min; console.log(x);
+            window.location.href = "https://wa.me/" + tels[x];
         </script>
     </div>
 </body>
+
 </html>
